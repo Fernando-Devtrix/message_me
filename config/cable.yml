@@ -4,7 +4,6 @@ development:
 test:
   adapter: async
 
-production:
+production: 
   adapter: redis
-  url: <%= ENV.fetch("REDIS_URL") { "redis://localhost:6379/1" } %>
-  channel_prefix: message_me_production
+  url: redis://h:p018068fd771a2afd9c95efd5dc6bde76d877573b36a4860879cc2ee34a81df15@ec2-54-80-112-21.compute-1.amazonaws.com:32489
